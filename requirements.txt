@@ -1,0 +1,29 @@
+# Core dependencies
+python-dotenv==1.0.0
+pandas==2.0.3
+numpy==1.24.3
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# API
+fastapi==0.103.1
+uvicorn==0.23.2
+pydantic==2.3.0
+
+# RAG and LLM
+faiss-cpu==1.7.4
+sentence-transformers==2.2.2
+transformers==4.33.2
+torch==2.0.1
+accelerators==2023.5.1
+
+# Testing
+pytest==7.4.0
+httpx==0.24.1
+
+# Optional - for real-time database updates
+sqlite3-api==0.1.0
+
+# Jupyter notebooks
+jupyter==1.0.0
+ipykernel==6.25.2
